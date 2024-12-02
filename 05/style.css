@@ -1,0 +1,60 @@
+*{
+   text-decoration: underline;
+}
+/* h3{
+    color: red;
+    background-color: black;
+} */
+p{
+    background-color: yellow;
+}
+h3,
+h4{
+    color: #00b7ff;;
+    background-color: black;
+}
+/*DRY*/
+
+h3,
+h4{
+    color: #00b7ff;;
+}
+span{
+    color: blueviolet;
+}
+p span{
+    color: darkgreen;
+}
+header nav a{
+    background-color: yellow;
+}
+#bottom{
+    background-color: purple;
+    color: white;
+}
+.text-card{
+    background: blue;
+    color: yellow;
+}
+.big{
+    font-size: 20px;
+}
+.text-card.big{
+    font-size: 20px;
+}
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:last-child{
+    background-color: rgb(255, 0, 179);
+}
+ ul li:nth-child(3){ 
+    background-color: green;
+}
+/*A bad variant of neming
+.green-button{
+background-color: rgb( 243, 13, 209);
+ */
+ .button-order{
+    background-color: red;
+ }
