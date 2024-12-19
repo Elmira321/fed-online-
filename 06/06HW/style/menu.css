@@ -37,6 +37,7 @@ button{
 }    
 .menu-position{
     display: inline-block;
+    margin-right: 25px;
 }
 .menu-position:hover .position-img{
     background-color: #EAE2B7;
@@ -59,18 +60,29 @@ p{
     padding: 0 4px;
 }
 .burger-position-img{
-    border-radius: 10%;
+    /* border-radius: 10%;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 4px 0px #e5e5e5;
+    box-shadow: 0px 0px 4px 0px #e5e5e5; */
+    display:inline-block;
+}
+.price{
+    display: inline-block;
+    vertical-align:top;
+    font: inter;
+    height: 19px;
 }
 .burger-position h3{
     color: #003049;
 }
 .burger-position{
-    display: grid;
     width: 316px;
     height: 88px;
+    margin-bottom: 12px;
+    border-radius: 10%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px 0px #e5e5e5;
+
 }
-.burger-position:hover .burger-position-img{
+.burger-position:hover{
     background-color: #EAE2B7;
 }
