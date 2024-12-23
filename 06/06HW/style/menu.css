@@ -3,6 +3,7 @@
 }
 body{
     background-color: #F7B3B3;
+    font-family: "Inter", serif;
 }
 .container{
 width: 360px;
@@ -78,7 +79,7 @@ p{
     width: 316px;
     height: 88px;
     margin-bottom: 12px;
-    border-radius: 10%;
+    border-radius: 10px;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 4px 0px #e5e5e5;
 
