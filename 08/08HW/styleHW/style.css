@@ -38,14 +38,16 @@ body{
 .photo{
     width: 400px;
     height: 227.36px;
-    margin-top: -106px;
-    margin-left: 60px;
+    position: relative;
+    bottom: 106px;
+    left: 60px;
 }
 .name{
-color: white;
-font-size: 92px;
-margin-left: 85px;
-margin-top: -53px;
+  color: white;
+  font-size: 92px;
+  position: relative;
+  bottom: 5px;
+  left: 85px;
 }
 .top-flag{
     background-color: blue;
@@ -53,8 +55,9 @@ margin-top: -53px;
     height: 30px;
     border-top-left-radius: 6px ;
     border-top-right-radius: 6px;
-    margin-top: -118px;
-    margin-left: 195px;
+    position: relative;
+    bottom: 118px;
+    left: 195px;
 }
 .bottom-flag{
     background-color:yellow;
@@ -62,17 +65,21 @@ margin-top: -53px;
     height: 30px;
     border-bottom-left-radius: 6px ;
     border-bottom-right-radius: 6px;
-    margin-left: 195px;
+    position: relative;
+    left: 195px;
+    bottom: 118px;
 }
 
 .top-blue{
-    margin-left: 35px;
-    margin-top: -481px;
+    position: relative;
+    left: 35px;
+    bottom: 482px;
     z-index: 4;
 }
 .symbol{
-    margin-left: 44px;
-    margin-top: -16px;
+    position: relative;
+    left: 55px;
+    bottom: 517px;
     z-index: 5;
 }
 .border{
