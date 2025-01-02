@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color: #F2F2F2; 
+}
+.container{
+   background-color: #00A1C6
+   width: 1920px;
+   height: 960px;
+}
+.title{
+    color: #2D3640;
+    width: 995px;
+    height: 80px;
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 600;
+   font-style: normal;
+}
+h1::after{
+    content: "On The Planet";
+    color: #2D3640;
+    font-family: "IBM Plex Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.titel:hover h1{
+    text-decoration: underline blue;
+}
+.information{
+  font-family: "IBM Plex Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.information{
+    color: #2B292D;
+    width: 695px;
+    height: 80px;
+}
+
+.box-items{
+    padding: 0 2px;   
+    display: inline-block; 
+}
+.box{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    
+    margin: 5px;
+    border-radius: 20px;
+}
+.box:hover{
+    color: blue;
+}
+.photo{
+    width: 120px;
+    height: 120px;
+    margin-left: 85px;
+    position: relative;
+    top: 56px;
+}
+.name{
+    margin-top: 120px;
+    margin-left: 96px;
+    font-family: "Catamaran", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+     font-style: normal;
+}
+span{
+    
+    margin-top: 239px;
+    margin-left: 92px;
+    font-family: "Catamaran", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
