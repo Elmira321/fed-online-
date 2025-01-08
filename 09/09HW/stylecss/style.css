@@ -5,9 +5,15 @@ body{
    background-color: #F2F2F2; 
 }
 .container{
-   background-color: #00A1C6
+   background-color: #00A1C60D;
    width: 1920px;
    height: 960px;
+}
+.block{
+    position: relative;
+    top: 142px;
+    left: 350px;
+
 }
 .title{
     color: #2D3640;
@@ -25,7 +31,10 @@ h1::after{
     font-style: normal;
 
 }
-.titel:hover h1{
+.text:hover {
+    text-decoration: underline blue;
+}
+.text-information:hover {
     text-decoration: underline blue;
 }
 .information{
@@ -48,13 +57,40 @@ h1::after{
     width: 295px;
     height: 470px;
     background-color: #FFFFFF;
-    
     margin: 5px;
     border-radius: 20px;
+    position: relative;
+    bottom: 134px;
 }
-.box:hover{
-    color: blue;
+.box-second{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 27px;
 }
+
+.box-third{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 81px;
+}
+.box-fourth{
+    width: 295px;
+    height: 470px;
+    background-color: #FFFFFF;
+    margin: 5px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 83px;
+}
+
 .photo{
     width: 120px;
     height: 120px;
@@ -63,19 +99,118 @@ h1::after{
     top: 56px;
 }
 .name{
-    margin-top: 120px;
-    margin-left: 96px;
+    position: relative;
+    top: 50px;
     font-family: "Catamaran", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-     font-style: normal;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
 }
 span{
-    
-    margin-top: 239px;
-    margin-left: 92px;
+    position: relative;
+    top: 18px;
+    left: 84px;
     font-family: "Catamaran", serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-size: 16px;
     font-style: normal;
+} 
+.box:hover {
+    border-radius: blue;
+    outline-style: solid;
+    outline-color: blue;
+}
+.box-second:hover {
+    border-radius: blue;
+    outline-style: solid;
+    outline-color: blue;
+}
+.box-third:hover {
+    border-radius: blue;
+    outline-style: solid;
+    outline-color: blue;
+}
+.box-fourth:hover {
+    border-radius: blue;
+    outline-style: solid;
+    outline-color: blue;
+}
+/* .symbol{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 146px;
+    left: 105px;
+} */
+
+.symbol-second{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    left: 123px;
+    bottom: 298px;
+    /* overflow: visible; */
+}
+.img-logo{
+    width: 50px;
+    height: 50px;
+}
+.logo{ 
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    left: 57px;
+    bottom: 193px;  
+}
+.logo-second{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 122px;
+    bottom: 246px;
+    /* overflow: visible; */
+}
+
+.logo-third{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 187px;
+    bottom: 293px;;
+    /* overflow: visible; */
+}
+.logo-fourth{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 97px;
+    bottom: 238px;
+}
+.logo-fifth{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 155px;
+    bottom: 286px;
+}
+
+.logo-sixth{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 91px;
+    bottom: 241px;
+}
+.logo-seventh{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 155px;
+    bottom: 290px;
 }
