@@ -5,15 +5,8 @@ body{
    background-color: #F2F2F2; 
 }
 .container{
-   background-color: #00A1C60D;
    width: 1920px;
-   height: 960px;
-}
-.block{
-    position: relative;
-    top: 142px;
-    left: 350px;
-
+   margin: 0 auto;
 }
 .title{
     color: #2D3640;
@@ -52,16 +45,13 @@ h1::after{
 .box-items{
     padding: 0 2px;   
     display: inline-block; 
-}
-.box{
     width: 295px;
     height: 470px;
     background-color: #FFFFFF;
     margin: 5px;
     border-radius: 20px;
-    position: relative;
-    bottom: 134px;
 }
+
 .box-second{
     width: 295px;
     height: 470px;
