@@ -1,9 +1,6 @@
 *{
   box-sizing: border-box;
 }
-*{
-  box-sizing: border-box;
-}
 body{
  background-color: #F2F2F2; 
 }
@@ -49,6 +46,7 @@ color: #2B292D;
   background-color: #FFFFFF;
   margin: 5px;
   border-radius: 20px;
+  overflow: hidden;
 }
 .box-items:hover{
   border-radius: blue;
@@ -56,28 +54,12 @@ color: #2B292D;
   outline-color: blue;
 }
 
-/* .box-items:nth-child(2){
-  position: relative;
-  bottom: 85px;
-}
-.box-items:nth-child(3){
-  position: relative;
-  bottom: 104px;
-} */
-.box-items:last-child{
-  position: relative;
-  bottom: 104px;
-}
 .photo{
   width: 120px;
   height: 120px;
-  margin-left: 85px;
-  position: relative;
-  top: 56px;
+  margin: 56px 87px 0px;
 }
 .name{
-  position: relative;
-  top: 50px;
   font-family: "Catamaran", serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -85,38 +67,39 @@ color: #2B292D;
   font-style: normal;
   text-align: center;
 }
-span{
-  position: relative;
-  top: 18px;
-  left: 84px;
+.h2{
+  font-family: "Catamaran", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+}
+.span{
   font-family: "Catamaran", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
+  text-align: center;
 } 
+.cards-items{
+  margin: 0px 0px 0px 57px;
+}
 .cards{
   display: inline-block;
-  margin: 0 auto;
-  position: relative;
-  top: 96px;
-  left: 59px;
+  margin: 36px auto;
   padding: 6px;
+  
 }
 .cards-second{
   display: inline-block;
-  margin: 0 auto;
-  position: relative;
-  top: 99px;
-  left: 78px;
+  margin: 36px auto;
   padding: 6px;
 }
 .cards-third{
   display: inline-block;
-  margin: 0 auto;
-  position: relative;
-  top: 112px;
-  left: 81px;
+  margin: 36px auto;
   padding: 6px;
 }
 .symbol{
@@ -124,8 +107,7 @@ span{
   height: 50px;
   overflow: hidden;
   background-color: white;
-  margin-left: 123px;
-  margin-top: 112px;
+  margin: 36px auto;
 }
 .logo>img{
   width: 50px;
